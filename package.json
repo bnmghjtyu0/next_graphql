@@ -5,11 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "export": "next build && next export",
+    "start": "next start",
+    "build:fab": "yarn build && yarn fab:compile",
+    "fab:compile": "fab-nextjs build"
   },
   "dependencies": {
+    "@next/plugin-google-analytics": "^9.2.2",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "9.2.2",
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-dom": "16.13.0",
+    "react-recaptcha-google": "^1.1.1"
+  },
+  "devDependencies": {
+    "@fab/nextjs": "^0.4.1",
+    "@types/node": "^13.7.7",
+    "@types/react": "^16.9.23",
+    "typescript": "^3.8.3"
   }
 }
