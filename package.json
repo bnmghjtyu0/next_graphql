@@ -18,7 +18,7 @@
     "apollo-link": "^1.2.14",
     "apollo-link-http": "^1.5.17",
     "apollo-link-rest": "0.7.3",
-    "apollo-server-micro": "^2.13.0",
+    "apollo-server-micro": "^2.14.2",
     "fetch-headers": "^2.0.0",
     "graphql": "^15.0.0",
     "graphql-anywhere": "^4.2.6",
